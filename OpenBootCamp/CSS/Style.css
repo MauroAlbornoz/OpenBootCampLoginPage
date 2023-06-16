@@ -1,0 +1,177 @@
+
+
+.container{
+    width: 100vh;
+    height: 800px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0 auto;
+    padding: .1px;
+}
+
+
+
+
+.container div h2{
+    margin-top: 80px;
+}
+
+
+.buttons{
+    display: flex;
+    gap: 15px;
+
+    margin-bottom: 20px;
+}
+
+
+
+.container div .btn{
+    width: 200px;
+    background-color: #0048fe;
+    border: none;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+    margin-bottom: 20px;
+    padding: 3px 0;
+
+
+}
+
+
+
+.btn{
+    transition: 0.1s;
+}
+
+
+.btn:hover{
+    opacity: 80%;
+}
+
+
+.container div .btn figure{
+    width: 26px;
+    height: 27px;
+    background-color: #fff;
+    margin: 0;
+    margin-left: -15px;
+    outline: 1px solid rgba(100, 100, 100, 0.178);
+    border-radius: 3px;
+}
+
+
+
+.second-btn{
+    width: 40px;
+    height: 33px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+
+    transition: 0.2s;
+}
+
+
+
+.second-btn:hover{
+    opacity: 80%;
+}
+
+
+.lines{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+
+.lines hr{
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+
+
+form{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+.container form input{
+    width: 154px;
+    height: 28px;
+    margin: 0 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+
+.container .input-large input{
+    width: 337px;
+}
+
+
+.container .input-large{
+    display: flex;
+    flex-direction: column;
+    gap: 70px 0;
+}
+
+
+.all__inputs{
+    transition: 0.1s;
+    padding: 5px 5px;
+}
+
+
+
+.all__inputs:hover{
+    background-color: #fff;
+    outline: 3px solid #ffc0cb;
+}
+
+
+.all__inputs:focus{
+    background-color: #fff;
+    outline: 3px solid #fccccb;
+}
+
+
+
+.creat__account{
+    width: 360px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #eb37a9;
+    color: #fff;
+    margin-top: 30px;
+    padding: 10px 0;
+
+}
+
+
+.creat__account:hover{
+    opacity: 80%;
+}
+
+
+
+
